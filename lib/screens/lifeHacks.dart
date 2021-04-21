@@ -17,12 +17,12 @@ class _LifeHacksState extends State<LifeHacks> {
       scrollDirection: Axis.horizontal,
       itemBuilder: (context, index) {
         return Padding(
-          padding: EdgeInsets.fromLTRB(30, 230, 20, 200),
+          padding: EdgeInsets.fromLTRB(30, 200, 20, 150),
           child: glassCard(
             context,
             widget.hacks.content[index],
             300,
-            270,
+            300,
           ),
         );
       },
